@@ -33,34 +33,38 @@ Enthaltene Dateien:
 
 ## M2 – Projektsteuerung ergänzen
 
-Status: in Arbeit
+Status: erledigt
 
-Ziel:
+Ergebnis:
 
-* offene Fragen sichtbar machen
-* Meilensteine dokumentieren
-* Cookbook-Entwicklung nachvollziehbar halten
+* offene Fragen sichtbar gemacht
+* Meilensteine dokumentiert
+* Cookbook-Entwicklung nachvollziehbarer gemacht
 
-Geplante Dateien:
+Enthaltene Dateien:
 
 * `open-questions.md`
 * `milestones.md`
 
 ## M3 – Erste Recipe-Gruppe
 
-Status: offen
+Status: in Arbeit
 
 Ziel:
 
 Eine kleine erste Gruppe von Kernrezepten aufbauen.
 
-Mögliche Recipes:
+Bereits angelegt:
 
 * `ASD-001 – Current Behavior First`
 * `ASD-002 – Small Safe Steps`
-* `ASD-003 – Separate Refactoring from Behavior Change`
-* `ASD-004 – Agent Prompt as Work Order`
-* `ASD-005 – Human Review Checkpoint`
+* `ASD-003 – Keep Human Entry Points Small`
+
+Mögliche nächste Recipes:
+
+* `ASD-004 – Separate Refactoring from Behavior Change`
+* `ASD-005 – Agent Prompt as Work Order`
+* `ASD-006 – Human Review Checkpoint`
 
 ## M4 – Erste Praxisvalidierung
 

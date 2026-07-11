@@ -13,6 +13,8 @@ Navigationsseite für das Agentic Software Development Cookbook.
 ### Grundlagen
 
 * [ASD-001 – Current Behavior First](recipes/asd-001-current-behavior-first.md)
+* [ASD-002 – Small Safe Steps](recipes/asd-002-small-safe-steps.md)
+* [ASD-003 – Keep Human Entry Points Small](recipes/asd-003-keep-human-entry-points-small.md)
 
 ## Recipe-Index nach Problemtyp
 
@@ -23,7 +25,8 @@ Navigationsseite für das Agentic Software Development Cookbook.
 
 ### Agentenarbeit begrenzen
 
-Noch keine Recipes.
+* **ASD-002 – Small Safe Steps**
+  Aufgaben in kleine, klar begrenzte und einzeln prüfbare Schritte zerlegen.
 
 Mögliche Themen:
 
@@ -45,7 +48,8 @@ Mögliche Themen:
 
 ### Dokumentation und Wissensaufbau
 
-Noch keine Recipes.
+* **ASD-003 – Keep Human Entry Points Small**
+  Lange Dokumentation als Projektgedächtnis erhalten und zusätzlich kurze, aktuelle Einstiegspunkte für Menschen schaffen.
 
 Mögliche Themen:
 
@@ -107,10 +111,10 @@ Links zu ähnlichen oder ergänzenden Recipes.
 Belegte Recipes:
 
 * ASD-001 – Current Behavior First
+* ASD-002 – Small Safe Steps
+* ASD-003 – Keep Human Entry Points Small
 
 Noch offen:
 
-* konkrete Dateistruktur unter `recipes/`
-* Namenskonvention für Recipe-Dateien
 * Abgrenzung zwischen Recipe, Pattern, Guideline und Checkliste
 * Entscheidung, wie stark reale Projektbeispiele anonymisiert oder abstrahiert werden sollen
