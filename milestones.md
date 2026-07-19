@@ -87,6 +87,32 @@ Ergebnis soll sein:
 * Anti-Patterns ergänzen
 * Beispiele abstrahieren
 
+## M4.1 – Praxisvalidierung Human Entry Point
+
+Status: erledigt
+
+Praxisprojekt:
+
+* `aktien_oop`
+
+Getestete Recipes:
+
+* `ASD-001 – Current Behavior First`
+* `ASD-002 – Small Safe Steps`
+* `ASD-003 – Keep Human Entry Points Small`
+
+Ergebnis:
+
+* `docs/project-status.md` als kurzer Human Entry Point erstellt
+* bestehende Langdokumentation unverändert erhalten
+* Link aus dem Projekt-README ergänzt
+* Pflegebedingung für den Human Entry Point definiert
+
+Wichtigste Lernerfahrung:
+
+* falsches Repository wurde vor Änderungen erkannt
+* Human Entry Point und Langdokumentation erfüllen unterschiedliche Rollen
+
 ## M5 – Erste veröffentlichbare Version
 
 Status: offen

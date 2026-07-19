@@ -18,6 +18,10 @@ Lange Dokumentation darf als Projektgedächtnis existieren.
 
 Für die tägliche Arbeit braucht es zusätzlich kleine, aktuelle Einstiegspunkte für Menschen.
 
+Diese Einstiegspunkte zeigen Orientierung und aktuellen stabilen Zustand.
+
+Die Langdokumentation bewahrt Verlauf, Analysen, Begründungen und Details.
+
 Nicht jedes Detail muss kurz sein.
 
 Aber der Einstieg muss kurz sein.
@@ -63,6 +67,8 @@ Geeignete Namen:
 
 Diese Datei sollte bewusst kurz bleiben.
 
+Sie zeigt nicht die vollständige Entwicklungschronik, sondern den aktuellen stabilen Projektzustand.
+
 Sie beantwortet vor allem:
 
 * Was ist das Ziel?
@@ -105,6 +111,38 @@ Wichtig:
 Verdichten heißt nicht löschen.
 
 Verdichten heißt: das Wichtige wieder sichtbar machen.
+
+### 5. Pflegebedingung festlegen
+
+Ein Human Entry Point braucht eine ausdrückliche Regel, wann er aktualisiert werden muss.
+
+Typische Auslöser sind Änderungen an:
+
+* übergeordnetem Projekt- oder Phasenstand
+* zentralem fachlichem Kandidaten oder Zielbild
+* verfügbarem operativem Workflow
+* Sicherheitsgrenzen
+* wichtigen vorhandenen Artefakten oder Werkzeugen
+* ausdrücklich noch nicht vorhandenen Bestandteilen
+* maßgeblichen Verweisen auf weiterführende Dokumentation
+
+Typischerweise keine Aktualisierung brauchen:
+
+* kleine interne Refactorings
+* zusätzliche Tests ohne Änderung des Gesamtstands
+* kleine Fehlerkorrekturen
+* rein historische Dokumentationsergänzungen
+* Änderungen ohne Bedeutung für neue oder zurückkehrende Menschen
+
+So bleibt der Einstiegspunkt stabil genug, um nützlich zu sein, ohne bei jeder kleinen Änderung Pflegeaufwand zu erzeugen.
+
+## Praxisbeispiel
+
+Im Praxisprojekt `aktien_oop` bestand bereits eine Langdokumentation mit mehr als 10.000 Zeilen.
+
+Statt diese Dokumentation zu kürzen, aufzuteilen oder umzustrukturieren, wurde zusätzlich `docs/project-status.md` als Human Entry Point mit ungefähr 70 Zeilen erstellt.
+
+Die Datei trennte klar zwischen vorhandenen und ausdrücklich noch nicht vorhandenen Bestandteilen, verlinkte Details statt sie zu duplizieren und erhielt eine Pflegebedingung für übergeordnete Änderungen.
 
 ## Geeigneter Agentenauftrag
 
